@@ -1,0 +1,33 @@
+{
+  "name": "test-training",
+  "version": "1.0.0",
+  "description": "Js unit test treining",
+  "main": "index.js",
+  "scripts": {
+    "lint": "eslint '*.js'",
+    "pretest": "npm run lint",
+    "test": "jest",
+    "test:watch": "jest --watchAll"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/bluerat1976/test-training.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/bluerat1976/test-training/issues"
+  },
+  "homepage": "https://github.com/bluerat1976/test-training#readme",
+  "devDependencies": {
+    "eslint": "^4.19.1",
+    "eslint-config-airbnb": "^17.1.0",
+    "eslint-config-airbnb-base": "^13.1.0",
+    "eslint-plugin-import": "^2.16.0",
+    "eslint-plugin-jsx-a11y": "^6.2.1",
+    "eslint-plugin-react": "^7.12.4",
+    "eslinter": "^3.2.1",
+    "jest": "^24.5.0"
+  }
+}
